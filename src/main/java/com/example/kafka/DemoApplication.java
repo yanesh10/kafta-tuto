@@ -1,4 +1,4 @@
-package com.example.kafka.demo;
+package com.example.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EnableWebMvc
-@ComponentScan("com.example.kafka")
 public class DemoApplication {
 
 	public static void main(String[] args) {
